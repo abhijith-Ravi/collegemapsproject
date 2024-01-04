@@ -499,7 +499,7 @@
  /* Your existing CSS code */
 
 /* Media query for mobile devices */
-@media only screen and (max-width: 291px) {
+@media only screen and (max-width: 480px) {
   .gridofoptions {
     grid-template-columns: repeat(3, 1fr);
   }
@@ -524,6 +524,7 @@
   }
   .logoimg{
     height: 30px;
+    width: 100px;
   }
 
   .block {
