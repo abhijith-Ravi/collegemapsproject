@@ -78,5 +78,23 @@ li {
     margin-bottom: 2px;
     border-bottom: 1px solid #ccc;
 }
+@media only screen and (max-width: 768px) {
+  .directionname{
+    font-style: italic;
+      font-weight: bold;
+      font-size: 15px;
+      margin-top: 15px;
+      margin-bottom: 15px;
+      margin-left: 40px;
+     
+   }
+   .mapdirection{
+    width: 768px;
+  }
+
+  .mapdirectionin{
+    width: 1068px;
+  }
+}
 
 
