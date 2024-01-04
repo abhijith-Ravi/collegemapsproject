@@ -88,12 +88,15 @@ li {
       margin-left: 40px;
      
    }
+   P{
+    font-size: 15PX;
+   }
    .mapdirection{
-    width: 768px;
+    width: 290px;
   }
 
   .mapdirectionin{
-    width: 1068px;
+    width: 500px;
   }
 }
 

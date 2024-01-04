@@ -499,24 +499,38 @@
  /* Your existing CSS code */
 
 /* Media query for mobile devices */
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 291px) {
   .gridofoptions {
     grid-template-columns: repeat(3, 1fr);
   }
 
   /* Additional styles for smaller screens if needed */
   .heading {
-    font-size: 30px;
+    font-size: 15px;
     margin-left: 20px;
   }
-
+  body {
+    margin: 0;
+  }
+  .gridofoptions, .block {
+    max-width: 100%; /* Make sure the content doesn't exceed the viewport width */
+  }
+  html, body {
+    overflow-x: hidden;
+  }
   .description {
     font-size: 20px;
     margin-left: 20px;
   }
+  .logoimg{
+    height: 30px;
+  }
 
   .block {
     height: 120px; /* Adjust height for smaller screens if needed */
+  }
+  .blockname{
+    font-size:10PX ;
   }
 
   .descriptionimg {
